@@ -1,0 +1,9 @@
+.onhover{
+    transition: all 0.3s;
+    box-shadow: 0 0 3em 3em rgba(0, 0, 0, 0.04);
+}
+
+.onhover:hover {
+    box-shadow: 5px 6px 1em 1em rgba(33, 140, 196, 0.08);
+    transform: scale(1.1);
+}

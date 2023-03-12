@@ -21,6 +21,11 @@ def main_page():
     return render_template('index.html', posts=posts)
 
 
+@app.route('/yandex_1634324086b9f68b.html')
+def webmaster():
+    return render_template('yandex_1634324086b9f68b.html')
+
+
 @app.route('/guestbook', methods=['POST'])
 def guest_book():
     name = request.form.get('name', type=str, default='')

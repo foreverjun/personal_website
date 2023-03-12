@@ -2,22 +2,32 @@
 <html lang="en">
 <head>
     <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(92775527, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/92775527" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+        ym(92775527, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/92775527" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Matvey Kalashnikov</title>
@@ -27,16 +37,22 @@
     <link rel="stylesheet" href="/static/css/my_css.css">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 </head>
-<nav class="navbar sticky-top mx-4 my-4">
-
-    <ul class="nav col-auto me-auto py-1 rounded bg-light bg-gradient">
-        <li><a href="#top" class="nav-link px-4 text-black">Начало</a></li>
-        <li><a href="#about_me" class="nav-link px-4 text-secondary">Обо мне</a></li>
-        <li><a href="#ed" class="nav-link px-4 text-secondary">Образование</a></li>
-        <li><a href="#projects" class="nav-link px-4 text-secondary">Проекты</a></li>
-        <li><a href="#contacts" class="nav-link px-4 text-secondary">Контакты</a></li>
-        <li><a href="#reviews" class="nav-link px-4 text-secondary">Обратная связь</a></li>
-    </ul>
+<nav class="navbar navbar-expand-lg sticky-top mx-4 my-4">
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav col-auto me-auto py-1 rounded bg-light bg-gradient">
+                <li class="nav-item"><a href="#top" class="nav-link active px-4 text-secondary">Top</a></li>
+                <li class="nav-item"><a href="#about_me" class="nav-link active px-4 text-secondary">Обо мне</a></li>
+                <li class="nav-item"><a href="#ed" class="nav-link active px-4 text-secondary">Образование</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link px-4 active text-secondary">Проекты</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link  active px-4 text-secondary">Контакты</a></li>
+                <li class="nav-item"><a href="#reviews" class="nav-link active px-4 text-secondary">Обратная связь</a></li>
+            </ul>
+    </div>
 </nav>
 <body>
 <main>
@@ -55,7 +71,7 @@
     </div>
 
     <div class="b-example-divider"></div>
-    <div class="container col-8 px-1 py-5" id="about_me">
+    <div class="container col-12 col-md-8 col-sm-11 px-1 py-5" id="about_me">
         <div class="row flex-row align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="/static/img/my_photo2.png" class="d-block mx-auto rounded-4 shadow-lg img-fluid"
@@ -76,7 +92,7 @@
             </div>
         </div>
     </div>
-    <div class="container col-8 px-1 py-5" id="ed">
+    <div class="container col-12 col-md-8 col-sm-11 px-1 py-5" id="ed">
         <h1 class="display-5 fw-bold mb-3 text-center">Образование и навыки</h1>
         <div class="mx-auto px-4 py-5 my-5 rounded-3 shadow-lg">
             <ul class="timeline mb-5">
@@ -136,7 +152,7 @@
             </div>
         </div>
     </div>
-    <div class="container col-8 px-1 py-5" id="projects">
+    <div class="container col-12 col-md-8 col-sm-11 px-1 py-5" id="projects">
         <h1 class="display-5 fw-bold mb-5 text-center">Участие в проектах</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -182,7 +198,7 @@
         </div>
     </div>
     <h1 class="display-5 fw-bold my-5 text-center" id="contacts">Контакты</h1>
-    <div class="container col-8 px-5 py-5 rounded-3 shadow-lg">
+    <div class="container col-md-8 col-sm-11 px-5 py-5 rounded-3 shadow-lg">
 
         <div class="row mt-1">
 
@@ -221,7 +237,7 @@
                 </form>
                 {% for message in get_flashed_messages() %}
                     <div class="alert alert-warning alert-dismissible fade show my-2" role="alert">
-                        <strong>Ошибка!</strong> {{message}}
+                        <strong>Ошибка!</strong> {{ message }}
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                 {% endfor %}
@@ -230,7 +246,7 @@
         </div>
     </div>
 
-    <div class="container col-8 px-5 py-5" id="reviews">
+    <div class="container col-md-8 col-sm-11 px-5 py-5" id="reviews">
         <h1 class="display-5 fw-bold my-5 text-center">Отзывы пользователей</h1>
 
         {% for post in posts %}
@@ -238,10 +254,10 @@
             <div class="card mb-4">
                 <div class="card-header">
                     <div class="row">
-                        <div class="col-10">
+                        <div class="col-6 col-md-10">
                             {{ post.name }}
                         </div>
-                        <div class="col-2">
+                        <div class="col-6 col-md-2">
                             {{ post.update_on }}
                         </div>
                     </div>
